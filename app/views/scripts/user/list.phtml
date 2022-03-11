@@ -1,0 +1,13 @@
+
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+        </tr>
+        <?php
+        foreach ($this->datos as $dato) {
+            echo "<tr><td>".$dato['name']."</td>";
+            echo "<td>".$dato['age']."</td></tr>";
+        }
+        ?>
+    </table>
